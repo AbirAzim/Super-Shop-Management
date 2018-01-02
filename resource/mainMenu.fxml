@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controller.MainMenu">
+   <children>
+      <Pane prefHeight="97.0" prefWidth="633.0" style="-fx-background-color: #E9D460;">
+         <children>
+            <Label layoutX="196.0" layoutY="21.0" prefHeight="55.0" prefWidth="214.0" text="Main Menu" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="38.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <AnchorPane layoutY="97.0" prefHeight="308.0" prefWidth="633.0" style="-fx-background-color: #663399;">
+         <children>
+            <VBox layoutX="36.0" layoutY="58.0" prefHeight="250.0" prefWidth="145.0">
+               <children>
+                  <Button mnemonicParsing="false" onAction="#addCustomerButton" prefHeight="29.0" prefWidth="145.0" text="Add Customer">
+                     <font>
+                        <Font name="System Bold" size="13.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#searchCustomerButton" prefHeight="29.0" prefWidth="145.0" text="Search Customer">
+                     <font>
+                        <Font name="System Bold" size="13.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets top="20.0" />
+                     </VBox.margin>
+                  </Button>
+                  <Button layoutX="10.0" layoutY="39.0" mnemonicParsing="false" onAction="#deleteCustomerButton" prefHeight="29.0" prefWidth="147.0" text="Delete Customer">
+                     <font>
+                        <Font name="System Bold" size="13.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets top="20.0" />
+                     </VBox.margin>
+                  </Button>
+                  <Button layoutX="10.0" layoutY="68.0" mnemonicParsing="false" onAction="#updateCustomerButton" prefHeight="29.0" prefWidth="146.0" text="Update Customer">
+                     <font>
+                        <Font name="System Bold" size="13.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets top="20.0" />
+                     </VBox.margin>
+                  </Button>
+               </children>
+            </VBox>
+            <VBox layoutX="190.0" prefHeight="308.0" prefWidth="61.0" />
+            <VBox layoutX="267.0" layoutY="52.0" prefHeight="257.0" prefWidth="136.0">
+               <children>
+                  <Button mnemonicParsing="false" onAction="#addProductsButton" prefHeight="22.0" prefWidth="135.0" text="Add Products">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#sellProductsButton" prefHeight="25.0" prefWidth="135.0" text="Sell Products">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets top="20.0" />
+                     </VBox.margin>
+                  </Button>
+                  <Button layoutX="10.0" layoutY="40.0" mnemonicParsing="false" onAction="#updateProductsButton" prefHeight="25.0" prefWidth="135.0" text="Update Product">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets top="20.0" />
+                     </VBox.margin>
+                  </Button>
+                  <Button layoutX="10.0" layoutY="70.0" mnemonicParsing="false" onAction="#searchProductButton" prefHeight="25.0" prefWidth="135.0" text="Search Product">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets top="20.0" />
+                     </VBox.margin>
+                  </Button>
+               </children>
+            </VBox>
+            <VBox layoutX="428.0" layoutY="-2.0" prefHeight="308.0" prefWidth="73.0" />
+            <VBox layoutX="495.0" layoutY="71.0" prefHeight="235.0" prefWidth="127.0">
+               <children>
+                  <Button mnemonicParsing="false" onAction="#checkBalanceButton" prefHeight="30.0" prefWidth="120.0" text="Check Balance">
+                     <VBox.margin>
+                        <Insets />
+                     </VBox.margin>
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="10.0" layoutY="45.0" mnemonicParsing="false" onAction="#backTothePreviousButton" prefHeight="30.0" prefWidth="120.0" text="Back">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets top="35.0" />
+                     </VBox.margin>
+                  </Button>
+                  <Button layoutX="10.0" layoutY="75.0" mnemonicParsing="false" onAction="#exitButton" prefHeight="30.0" prefWidth="120.0" text="Exit">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets top="35.0" />
+                     </VBox.margin>
+                  </Button>
+               </children>
+            </VBox>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
